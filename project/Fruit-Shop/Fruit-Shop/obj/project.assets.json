@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "C:\\Users\\bohda\\.nuget\\packages\\": {},
+    "D:\\VS components\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\Fruit-Shop.csproj",
+      "projectUniqueName": "F:\\ОКРПЗ\\Fruit-Shop_acc\\project\\Fruit-Shop\\Fruit-Shop\\Fruit-Shop.csproj",
       "projectName": "Fruit-Shop",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\Fruit-Shop.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\obj\\",
+      "projectPath": "F:\\ОКРПЗ\\Fruit-Shop_acc\\project\\Fruit-Shop\\Fruit-Shop\\Fruit-Shop.csproj",
+      "packagesPath": "C:\\Users\\bohda\\.nuget\\packages\\",
+      "outputPath": "F:\\ОКРПЗ\\Fruit-Shop_acc\\project\\Fruit-Shop\\Fruit-Shop\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VS components\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bohda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
