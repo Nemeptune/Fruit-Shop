@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Re5mwt3TAXVLwBlmohpUFMZk+s4NgkgpfXv+AqmKpLY=",
+  "Hash": "14DnjtSi+OFJX589OeFgXwehcFRiCFWyqT1ZnB0xARs=",
   "Source": "Fruit-Shop",
   "BasePath": "_content/Fruit-Shop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Fruit-Shop\\wwwroot",
       "Source": "Fruit-Shop",
-      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
+      "ContentRoot": "D:\\Frut-shope\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
       "BasePath": "_content/Fruit-Shop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Frut-shope\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\css\\site.css",
       "SourceId": "Fruit-Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
+      "ContentRoot": "D:\\Frut-shope\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
       "BasePath": "_content/Fruit-Shop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Frut-shope\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\js\\site.js",
       "SourceId": "Fruit-Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Documents\\Fruit-Shop\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
+      "ContentRoot": "D:\\Frut-shope\\project\\Fruit-Shop\\Fruit-Shop\\wwwroot\\",
       "BasePath": "_content/Fruit-Shop",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
