@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\WebApplication5.csproj": {}
+    "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\WebApplication5.csproj": {
+    "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\WebApplication5.csproj",
-        "projectName": "WebApplication5",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\WebApplication5.csproj",
+        "projectUniqueName": "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj",
+        "projectName": "Fruit_shop",
+        "projectPath": "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\obj\\",
+        "outputPath": "D:\\Fruit_shope\\project\\WebApplication5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

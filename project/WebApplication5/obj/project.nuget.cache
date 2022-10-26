@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pU7vC+Lpcza3+oS7xddSx6U46RjTA4JHjtP3dak1lyuYRT5tlU0UlSkT1dUxp3kObDo12xnVoaR97Uk0UprFtg==",
+  "dgSpecHash": "+jtLfa9HJacCscEMfTez7c6pr08+DbqJ5wXLes7RugyxnSIDSQYe6kEJujRnTNTI9e+7ashNKNhqAevbdH8Nbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\Game_shop — копия\\WebApplication5\\WebApplication5.csproj",
+  "projectFilePath": "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
