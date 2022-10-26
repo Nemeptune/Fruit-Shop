@@ -1,0 +1,83 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApplication5.Models.Game
+@{
+    Layout = "_Layout";
+}
+
+<div class="main__container game_cont">
+
+    <div class="content__colm_first">
+        <div class="long_block">
+            <div class="long__head">@Model.Name</div>
+            <div class="long__img">
+                <div class="itcss">
+                        <div class="itcss__wrapper">
+                            <div class="itcss__items">
+                                @{
+                                    for (int i = 1; i <= int.Parse(Model.Photos); i++)
+                                            {
+                                            <div class="itcss__item">
+                                                <img class="itcss__item_img" src="/img/@Model.Id/_@i.ToString()_.jpg">
+                                            </div>
+                                }
+                                }
+                            </div>
+                        </div>
+                        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+                        <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+            </div>
+            <div class="long_gan">Жанри: </div>
+            <div class="long__categorys">
+                @{
+                    foreach (var item in Model.Categories)
+                    {
+                        <div class="long_cat">
+                            <a href="Category/Category/@item.Id">@item.Name</a>
+                        </div>
+                    }
+                    
+                }
+
+            </div>
+            <div class="long__desk">
+            @Model.LongDesc
+            </div>
+        </div>
+    </div>
+    <div class="content__colm_two">
+        <div class="short_block">
+            <div class="short__img">
+                <img src="~/img/@Model.Id/1.jpg" alt="@Model.Name">
+            </div>
+            <a href="" class="short__buy">
+                <div>В КОШИК</div>
+            </a>
+            <div class="short_inf">
+                <div class="inf__studia inf_g">
+                    <div class="left_inf">Ціна: </div>
+                    <div class="right_inf">@Model.Price ₴</div>
+                </div>
+                <div class="inf__studia inf_g">
+                    <div class="left_inf">Розробник: </div>
+                    <div class="right_inf">@Model.Producer</div>
+                </div>
+                <div class="inf__date inf_g">
+                    <div class="left_inf">Дата виходу: </div>
+                    <div class="right_inf">
+                        @Model.Date_of_public
+                    </div>
+                </div>
+                <div class="inf__platform inf_g">
+                    <div class="left_inf">Платформа:</div>
+                    <div class="right_inf">
+                        Win
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+

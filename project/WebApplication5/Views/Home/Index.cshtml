@@ -1,0 +1,96 @@
+﻿
+@model List<WebApplication5.Models.Game>
+@{
+    Layout = "_Layout" ;
+}
+
+
+
+<div class="show_box">
+    <div class="box__head">Найпопулярніший продукт</div>
+    <div class="box__showcase showcase">
+        @{int top_prod = 0;
+        }
+        <div class="box__big_image">
+            <a href="Game/Game/@Model[top_prod].Id">
+                <img src="~/img/@Model[top_prod].Id/1.jpg" alt="big_image"
+                     class="big_image">
+            </a>
+
+        </div>
+        <div class="box__inf inf">
+            <div class="inf__name"><a href="Game/Game/@Model[top_prod].Id">@Model[top_prod].Name</a></div>
+            <div class="inf__imgs">
+                @{
+
+               for (int i = 1; i < 5; i++)
+                    {
+                                           <div class="inf__img">
+                        <img src="~/img/@Model[top_prod].Id/_@i.ToString()_.jpg" alt="">
+                    </div> 
+                    }
+
+                }
+            </div>
+            <div class="inf__categorys categorys">
+         
+                @{
+                    foreach (var item in Model[top_prod].Categories)
+                    {
+                        <div class="categorys__cat"><a href="/Home/CategoryList/@item.Id" class="cat__link">@item.Name</a></div>
+                    }
+                }
+               
+            </div>
+            <div class="buy">
+                <div class="buy__price">
+                    @Model[top_prod].Price ₴
+                </div>
+                <div class="buy_button">
+                    <a href="" class="buy__link">В кошик</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@Html.ActionLink("Добавити гравця", "Create")
+<div class="catalog">
+    <div class="ctlg__head">Каталог</div>
+    <div class="ctlg__items">
+       @{foreach (var item in Model)
+            {
+                <a class="showcase ctlg__showcase" href="Game/Game/@item.Id">
+                    <div class="ctlg__img"><img src="~/img/@item.Id/1.jpg" alt="Main IMG"></div>
+                    <div class="ctlg__inf">
+                        <div class="ctlg__name">@item.Name</div>
+                        <div class="ctl_categorys categorys">
+                        @{
+                            foreach (var cat in item.Categories)
+                        {
+                            <div class="categorys__cat">@cat.Name</div>
+                        }
+                            
+                        }
+                        </div>
+                    </div>
+                    <div class="ctlg_price buy">@item.Price ₴</div>
+                    @Html.ActionLink("Редагувати", "Edit", new { id = item.Id })
+                    @Html.ActionLink("Видалити", "Delete", new { id = item.Id })
+                </a>
+            }
+            
+        }
+        </div>
+    <p>
+        @Html.ActionLink("Каталог жанрів", "ListCategorys")
+    </p>
+
+</div>
+
+
+
+
+    
+
+
