@@ -1,0 +1,39 @@
+﻿
+@model List<WebApplication5.Models.Game>
+@{
+    Layout = "_Layout" ;
+}
+
+
+
+<div class="show_box">
+
+<div class="catalog">
+    <div class="ctlg__head">Каталог</div>
+    <div class="ctlg__items">
+       @{foreach (var item in Model)
+            {
+                <a class="showcase ctlg__showcase" href="Game/Game/@item.Id">
+                    <div class="ctlg__img"><img src="~/img/@item.Id/1.jpg" alt="Main IMG"></div>
+                    <div class="ctlg__inf">
+                        <div class="ctlg__name">@item.Name</div>
+                            <div class="ctlg_price buy">@item.Price ₴</div>
+                        <div class="ctl_categorys categorys">
+
+                        </div>
+                    </div>
+                    
+                </a>
+            }
+            
+        }
+        </div>
+
+</div>
+
+
+
+
+    
+
+
