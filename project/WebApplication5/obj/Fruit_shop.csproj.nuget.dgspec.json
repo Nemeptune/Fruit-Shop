@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj": {}
+    "F:\\ОКРПЗ\\Fruit-Shop\\project\\WebApplication5\\Fruit_shop.csproj": {}
   },
   "projects": {
-    "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj": {
+    "F:\\ОКРПЗ\\Fruit-Shop\\project\\WebApplication5\\Fruit_shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj",
+        "projectUniqueName": "F:\\ОКРПЗ\\Fruit-Shop\\project\\WebApplication5\\Fruit_shop.csproj",
         "projectName": "Fruit_shop",
-        "projectPath": "D:\\Fruit_shope\\project\\WebApplication5\\Fruit_shop.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "D:\\Fruit_shope\\project\\WebApplication5\\obj\\",
+        "projectPath": "F:\\ОКРПЗ\\Fruit-Shop\\project\\WebApplication5\\Fruit_shop.csproj",
+        "packagesPath": "C:\\Users\\bohda\\.nuget\\packages\\",
+        "outputPath": "F:\\ОКРПЗ\\Fruit-Shop\\project\\WebApplication5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bohda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

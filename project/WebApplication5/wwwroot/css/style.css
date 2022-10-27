@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
 }
 
 ul,
@@ -65,7 +65,7 @@ body {
 }
 
 :root {
-    --main_color: #242424;
+    --main_color: white;
     --main_color_dark: #1c1c1c;
     --main_contrast_color: rgb(215, 0, 36);
 }
@@ -74,23 +74,34 @@ body {
 /*-----------------------------------------------vvvvv---HEADER---vvv-----------------------------------*/
 
 .header {
-    background-color: var(--main_color_dark);
+    background-color: white;
+    border-bottom: solid 1px #EAEAEA;
 }
 
 .header__container {
     display: flex;
-    min-height: 90px;
+    min-height: 52px;
     align-items: center;
+}
 
-
+.header__logo {
+    height: 34.08px;
+    width: 34.08px;
+    background-color: #FF2773;
+    transform: rotate(0.13deg);
+    position: relative;
 }
 
 .header__logo a {
-    font-family: Poppins;
+    font-family: Rubik;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 35px;
     font-weight: 700;
-    color: var(--main_contrast_color);
-    flex: 0 0 91px;
+    color: aliceblue;
 }
 
 
@@ -99,43 +110,38 @@ body {
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    min-height: 90px;
+    min-height: 30px;
 
 }
 
 .menu__list {
-
     display: flex;
-
     gap: 20px;
     flex-wrap: wrap;
     padding: 15px;
     justify-content: center;
     flex: 1 1 50%;
+    text-decoration-color: #2B1E70;
 }
 
-.menu__item {}
+.menu__item {
+    font-family: Varela+Round;
+}
 
 .menu__link {
     font-size: 15px;
     font-weight: 700;
     color: rgb(219, 219, 219);
-    text-transform: uppercase;
     line-height: 1.2;
 }
 
 .menu__serch {
-    flex: 1 1 40%;
-    margin: 5px 10px;
-    min-width: 160px;
-    min-height: 28px;
-
-
-    border: 2px solid rgb(219, 219, 219);
-    background-color: rgb(37, 37, 37);
-    ;
-    border-radius: 11px;
-
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: center;
+    flex: 1 1 50%;
 }
 
 
@@ -143,23 +149,21 @@ body {
 
 
 .button {
-    color: rgb(219, 219, 219);
+    color: white;
 }
 
 .button_dark {
     padding: 8px 30px;
-    font-family: Poppins;
-    font-size: 20px;
+    font-family: Rubik;
+    font-size: 15px;
     font-weight: 700;
-
-
-    background-color: var(--main_contrast_color);
-    border-radius: 5px;
+    background-color: #FF2773;
+    border-radius: 24px;
     transition: background-color 0.3s ease 0s;
 }
 
 .button_dark:hover {
-    background-color: rgb(109, 0, 18);
+    background-color: #FF4D95;
 }
 
 /*-----------------------------------------------vvvvv---MAINE---vvv-----------------------------------*/
@@ -180,7 +184,7 @@ body {
 .showcase {
    
     border-radius: 10px;
-    background-color: var(--main_color_dark);
+    background-color: white;
     box-shadow: -5px -5px 16px rgba(166, 166, 166, 0.27);
     border-bottom: 1px solid var(--main_contrast_color);
     border-right: 1px solid var(--main_contrast_color);
@@ -285,6 +289,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+.box__head {
+    font-family: Rubik;
+    font: bold;
+    color: #190134;
+}
+
+.ctlg__head {
+    font-family: Rubik;
+    font: bold;
+    color: #190134;
 }
 
 .ctlg__showcase {
