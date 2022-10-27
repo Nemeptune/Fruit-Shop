@@ -182,7 +182,7 @@ body {
 }
 
 .showcase {
-   
+
     border-radius: 10px;
     background-color: white;
     box-shadow: -5px -5px 16px rgba(166, 166, 166, 0.27);
@@ -336,6 +336,7 @@ body {
 
 .ctlg_price {
     flex: 1 1 auto;
+}
 
 /*---------------------------------VVVVVV-----FOOTER-----VVVVV----------------------------------*/
 
@@ -356,7 +357,7 @@ body {
     align-items: center;
 }
 
-.footer-text {}
+
 
 
 /*=============================================PAGE====2=================================================*/
@@ -370,7 +371,9 @@ body {
 }
 
 .content__colm_first {
-    flex: 1 1 60%;
+    flex: 1 1 28%;
+    padding-right: 116px;
+    padding-left: 40px;
 }
 
 .long_block {
@@ -412,11 +415,10 @@ body {
 }
 
 .content__colm_two {
-    flex: 1 1 20%;
+    flex: 1 1 25%;
 
     min-width: 240px;
     font-size: 14px;
-    margin-top: 73px;
 
 }
 
@@ -427,11 +429,7 @@ body {
     width: 100%;
 }
 
-.short__img img {
-    width: 100%;
-
-
-}
+.short__img img {}
 
 .short__img {
     flex: 1 0 auto;
@@ -453,8 +451,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
-
+    gap: 15px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    color: #B3ABBC;
 
 }
 
@@ -472,4 +473,58 @@ body {
 
 .right_inf {
     text-align: end;
+}
+
+.first__img img {
+    width: 440px;
+}
+
+.first__img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.info_price_buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__name {
+    font-family: Rubik;
+    font-size: 30px;
+    color: #080a08;
+    margin-bottom: 15px;
+}
+
+.info_price_buy {
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    font-family: Rubik;
+    font-size: 26px;
+}
+
+.price {
+    color: #5CC689;
+}
+
+.buy_button {
+    background-color: #FF2773;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px 30px;
+}
+
+.desc {
+    margin-top: 25px;
+    padding: 0px 40px;
+    font-family: Varela+Round;
+    font-size: 17px;
+    color: #2B1E70;
+}
+
+.desc_head {
+    font-size: 30px;
+    margin-bottom: 8px;
 }

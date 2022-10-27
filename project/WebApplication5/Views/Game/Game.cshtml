@@ -6,78 +6,41 @@
 
 <div class="main__container game_cont">
 
-    <div class="content__colm_first">
-        <div class="long_block">
-            <div class="long__head">@Model.Name</div>
-            <div class="long__img">
-                <div class="itcss">
-                        <div class="itcss__wrapper">
-                            <div class="itcss__items">
-                                @{
-                                    for (int i = 1; i <= int.Parse(Model.Photos); i++)
-                                            {
-                                            <div class="itcss__item">
-                                                <img class="itcss__item_img" src="/img/@Model.Id/_@i.ToString()_.jpg">
-                                            </div>
-                                }
-                                }
-                            </div>
-                        </div>
-                       
-                        <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
-                        <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
-                    </div>
-            </div>
-            <div class="long_gan">Жанри: </div>
-            <div class="long__categorys">
-                @{
-                    foreach (var item in Model.Categories)
-                    {
-                        <div class="long_cat">
-                            <a href="Category/Category/@item.Id">@item.Name</a>
-                        </div>
-                    }
-                    
-                }
+    <div class="main__container game_cont">
 
-            </div>
-            <div class="long__desk">
-            @Model.LongDesc
+        <div class="content__colm_first">
+            <div class="first__img">
+                <img src="/wwwroot/img/1/1.jpg" alt="Product">
             </div>
         </div>
-    </div>
-    <div class="content__colm_two">
-        <div class="short_block">
-            <div class="short__img">
-                <img src="~/img/@Model.Id/1.jpg" alt="@Model.Name">
+        <div class="content__colm_two info">
+            <div class="info__name">Mango</div>
+            <div class="info_price_buy">
+                <div class="price">
+                    5 $
+                </div>
+                <a class="buy_button" href="#">
+                    Купити
+                </a>
             </div>
-            <a href="" class="short__buy">
-                <div>В КОШИК</div>
-            </a>
             <div class="short_inf">
                 <div class="inf__studia inf_g">
-                    <div class="left_inf">Ціна: </div>
-                    <div class="right_inf">@Model.Price ₴</div>
+                    <div class="left_inf">Компанія:</div>
+                    <div class="right_inf">000000</div>
                 </div>
                 <div class="inf__studia inf_g">
-                    <div class="left_inf">Розробник: </div>
-                    <div class="right_inf">@Model.Producer</div>
-                </div>
-                <div class="inf__date inf_g">
-                    <div class="left_inf">Дата виходу: </div>
-                    <div class="right_inf">
-                        @Model.Date_of_public
-                    </div>
-                </div>
-                <div class="inf__platform inf_g">
-                    <div class="left_inf">Платформа:</div>
-                    <div class="right_inf">
-                        Win
-                    </div>
+                    <div class="left_inf">Кількість: </div>
+                    <div class="right_inf">aaaaaaaaaaa</div>
                 </div>
 
             </div>
         </div>
+        <div class="desc">
+            <div class="desc_head">
+                Загальна інформація про -----------
+            </div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis esse doloribus quia, eligendi
+            exercitationem sed animi tempore optio. Voluptates quaerat reprehenderit minus assumenda quibusdam
+            debitis sapiente, impedit expedita adipisci harum.
+        </div>
     </div>
-    </div>
-
